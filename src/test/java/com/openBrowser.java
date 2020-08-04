@@ -8,14 +8,14 @@ import org.testng.annotations.BeforeMethod;
 public class openBrowser
 {
     InitializeUser browser = new InitializeUser();
-    public WebDriver kushtrim;
+    public WebDriver element;
 
     @BeforeMethod
     public void openChrome()
     {
-        kushtrim = browser.initializeInstance();
+        element = browser.initializeInstance();
 
-        kushtrim.get("https://dev.app.ucxmarket.com");
+        element.get("https://internal.eu-demo.skipsolabs.com");
 
         System.out.println("------- Opening Browser -------");
     }
@@ -23,7 +23,7 @@ public class openBrowser
     @AfterMethod
     public void cleanUp()
     {
-        kushtrim.quit();
+        element.quit();
     }
 
 }

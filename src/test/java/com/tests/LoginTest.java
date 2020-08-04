@@ -9,10 +9,10 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class test extends openBrowser
+public class LoginTest extends openBrowser
 {
-    private String email="buyer-admin";
-    private String password="halili123";
+    private String email="testerthree@skipso.com";
+    private String password=" TESTer3ree";
     private String optionName="Storage";
     private String dropdownName="Cherry Test";
 
@@ -21,12 +21,14 @@ public class test extends openBrowser
     @Test
     public void testMethod() throws InterruptedException
     {
-        login = new LoginImpl(kushtrim);
+        login = new LoginImpl(element);
 
         login.loginUser(email, password);
-        login.chooseOption(optionName);
-        login.checkOption();
-        login.dropdown(dropdownName);
+        login.callFor();
+//        login.chooseOption(optionName);
+//        login.checkOption();
+//        login.dropdown(dropdownName);
     }
+
 
 }
