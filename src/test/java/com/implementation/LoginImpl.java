@@ -1,12 +1,9 @@
 package com.implementation;
 
-import junit.framework.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
@@ -25,11 +22,9 @@ public class LoginImpl {
     public By optionHolder = By.cssSelector(".card-box-inner.ng-star-inserted");
     public By dropdownOption = By.cssSelector("ng-select.ng-select-single.ng-select-searchable.ng-select-clearable.ng-untouched.ng-pristine.ng-valid.ng-select-opened.ng-select-bottom");
     public By dropdownItem = By.cssSelector(".ng-option-item.ng-star-inserted");
-
-
-    private String loggedinLink = "https://internal.eu-demo.skipsolabs.com/en/challenge";
-    private String callForstart = "https://internal.eu-demo.skipsolabs.com/en/challenge";
     WebDriver element;
+    private final String loggedinLink = "https://internal.eu-demo.skipsolabs.com/en/challenge";
+    private final String callForstart = "https://internal.eu-demo.skipsolabs.com/en/challenge";
 
     //Class Constructor
     public LoginImpl(WebDriver element) {
@@ -49,11 +44,11 @@ public class LoginImpl {
         assertTrue(element.getCurrentUrl().contains(loggedinLink), "link is not the same");
     }
 
-    public void callFor()throws InterruptedException{
-    //        element.findElement(urlcall).click();
-            element.findElement(By.xpath("//a[@href='/en/challenge/call-for-startups']")).click();
-            Thread.sleep(1000);
-            assertTrue(element.getCurrentUrl().contains(callForstart),"link fail");
+    public void callFor() throws InterruptedException {
+        //        element.findElement(urlcall).click();
+        element.findElement(By.xpath("//a[@href='/en/challenge/call-for-startups']")).click();
+        Thread.sleep(1000);
+        assertTrue(element.getCurrentUrl().contains(callForstart), "link fail");
     }
 
     public void chooseOption(String optionName) {
@@ -68,24 +63,19 @@ public class LoginImpl {
         }
     }
 
-    public void checkOption()
-    {
-      try
-      {
-          new WebDriverWait(element, 60)
-                  .until(ExpectedConditions.visibilityOf(element.findElement(By.cssSelector(".front-door-selection.ng-star-inserted"))));
-      }
-      catch(Exception e)
-      {
-          fail("User was not redirected to Storage");
-      }
+    public void checkOption() {
+        try {
+            new WebDriverWait(element, 60)
+                    .until(ExpectedConditions.visibilityOf(element.findElement(By.cssSelector(".front-door-selection.ng-star-inserted"))));
+        } catch (Exception e) {
+            fail("User was not redirected to Storage");
+        }
 
-      assertTrue(element.getCurrentUrl().contains(loggedinLink), "link is not the same");
+        assertTrue(element.getCurrentUrl().contains(loggedinLink), "link is not the same");
 
     }
 
-    public void dropdown(String drowpdownName)
-    {
+    public void dropdown(String drowpdownName) {
         List<WebElement> options = element.findElements(dropdownOption);
 
         assertNotNull(options, "this is null");
@@ -94,10 +84,9 @@ public class LoginImpl {
 
         List<WebElement> optionss = element.findElements(dropdownItem);
 
-        for(WebElement option :optionss)
-        {
+        for (WebElement option : optionss) {
             String name = option.getText();
-            if (name.equalsIgnoreCase(drowpdownName)){
+            if (name.equalsIgnoreCase(drowpdownName)) {
                 option.click();
                 break;
             }
