@@ -1,15 +1,16 @@
 package com.implementation;
 
+<<<<<<< HEAD
 import gherkin.lexer.Th;
 import jdk.nashorn.internal.runtime.regexp.joni.exception.InternalException;
 import junit.framework.Assert;
+=======
+>>>>>>> 2832eebf7d55f78b78c75815eeb6ff044ff76856
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
@@ -26,6 +27,7 @@ public class LoginImpl {
     public By optionHolder = By.cssSelector(".card-box-inner.ng-star-inserted");
     public By dropdownOption = By.cssSelector("ng-select.ng-select-single.ng-select-searchable.ng-select-clearable.ng-untouched.ng-pristine.ng-valid.ng-select-opened.ng-select-bottom");
     public By dropdownItem = By.cssSelector(".ng-option-item.ng-star-inserted");
+<<<<<<< HEAD
     public By urlcall = By.cssSelector("a[href = /en/challenge/call-for-startups]");
     public By callforstart = By.xpath("//a[contains(@href, '/en/challenge/call-for-startups') and contains (//title,' Call for Startups ')]");
     public By idea = By.xpath("//a[contains(@href, '#') and contains (//title,' Ideas ')]");
@@ -107,7 +109,11 @@ public class LoginImpl {
     private String paymentdetailslink = "https://internal.eu-demo.skipsolabs.com/en/payments/from/resume?slug=tester3-304&id=304";
     private String homelink = "https://internal.eu-demo.skipsolabs.com/en/";
     private String MySubmition = "https://internal.eu-demo.skipsolabs.com/en/profile/my/submissions";
+=======
+>>>>>>> 2832eebf7d55f78b78c75815eeb6ff044ff76856
     WebDriver element;
+    private final String loggedinLink = "https://internal.eu-demo.skipsolabs.com/en/challenge";
+    private final String callForstart = "https://internal.eu-demo.skipsolabs.com/en/challenge";
 
     //Class Constructor
     public LoginImpl(WebDriver element) {
@@ -128,10 +134,18 @@ public class LoginImpl {
         assertTrue(element.getCurrentUrl().contains(loggedinLink), "link is not the same");
     }
 
+<<<<<<< HEAD
     public void callFor()throws InterruptedException{
             element.findElement(By.xpath("//a[@href='/en/challenge/call-for-startups']")).click();
             Thread.sleep(1000);
             assertTrue(element.getCurrentUrl().contains(callForstart),"link fail");
+=======
+    public void callFor() throws InterruptedException {
+        //        element.findElement(urlcall).click();
+        element.findElement(By.xpath("//a[@href='/en/challenge/call-for-startups']")).click();
+        Thread.sleep(1000);
+        assertTrue(element.getCurrentUrl().contains(callForstart), "link fail");
+>>>>>>> 2832eebf7d55f78b78c75815eeb6ff044ff76856
     }
     public void rules()throws InterruptedException{
         Thread.sleep(1000);
@@ -453,24 +467,19 @@ public class LoginImpl {
         }
     }
 
-    public void checkOption()
-    {
-      try
-      {
-          new WebDriverWait(element, 60)
-                  .until(ExpectedConditions.visibilityOf(element.findElement(By.cssSelector(".front-door-selection.ng-star-inserted"))));
-      }
-      catch(Exception e)
-      {
-          fail("User was not redirected to Storage");
-      }
+    public void checkOption() {
+        try {
+            new WebDriverWait(element, 60)
+                    .until(ExpectedConditions.visibilityOf(element.findElement(By.cssSelector(".front-door-selection.ng-star-inserted"))));
+        } catch (Exception e) {
+            fail("User was not redirected to Storage");
+        }
 
-      assertTrue(element.getCurrentUrl().contains(loggedinLink), "link is not the same");
+        assertTrue(element.getCurrentUrl().contains(loggedinLink), "link is not the same");
 
     }
 
-    public void dropdown(String drowpdownName)
-    {
+    public void dropdown(String drowpdownName) {
         List<WebElement> options = element.findElements(dropdownOption);
 
         assertNotNull(options, "this is null");
@@ -479,10 +488,9 @@ public class LoginImpl {
 
         List<WebElement> optionss = element.findElements(dropdownItem);
 
-        for(WebElement option :optionss)
-        {
+        for (WebElement option : optionss) {
             String name = option.getText();
-            if (name.equalsIgnoreCase(drowpdownName)){
+            if (name.equalsIgnoreCase(drowpdownName)) {
                 option.click();
                 break;
             }

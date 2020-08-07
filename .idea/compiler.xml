@@ -9,6 +9,7 @@
         <module name="automation-test" />
         <module name="Automation" />
         <module name="test-automation" />
+        <module name="Automation" />
       </profile>
     </annotationProcessing>
   </component>

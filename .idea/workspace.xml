@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -17,14 +18,35 @@
       </path>
     </expand>
     <select />
+=======
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+>>>>>>> 2832eebf7d55f78b78c75815eeb6ff044ff76856
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff6b9433-6a0a-475d-85e9-628fe1badce5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/29bcbb7d-075a-45bf-9f50-760655ec141d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/98995ab3-256c-4710-822c-31bb383f25a3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9d31cb83-c15a-4ca1-b616-a58cfdba9ece-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/aaec1481-6a7f-4001-9398-44d155c0c0d3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b1e6bb15-841d-489c-801f-597fa21b418b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e9249c5c-450a-4bb1-8c0f-a73fe0fb5dac-container.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/implementation/LoginImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/implementation/LoginImpl.java" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/test/java/com/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/implementation/LoginImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/implementation/LoginImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/tests/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tests/LoginTest.class" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/implementation/LoginImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/implementation/LoginImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/initialize/InitializeUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/initialize/InitializeUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/openBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/openBrowser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tests/test.class" beforeDir="false" />
+>>>>>>> 2832eebf7d55f78b78c75815eeb6ff044ff76856
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,20 +71,37 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1Y4YMPxRwPhVaPNObUzToLh7CQm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+=======
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+>>>>>>> 2832eebf7d55f78b78c75815eeb6ff044ff76856
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -71,6 +110,17 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.LoginTest.testMethod (1)">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest.testMethod (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
@@ -153,6 +203,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -176,11 +227,12 @@
       <workItem from="1596578279073" duration="29000" />
       <workItem from="1596578345068" duration="340000" />
       <workItem from="1596578726606" duration="4713000" />
+      <workItem from="1596788604872" duration="667000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -193,6 +245,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596665665214">
