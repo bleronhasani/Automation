@@ -20,15 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff6b9433-6a0a-475d-85e9-628fe1badce5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Automation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/implementation/LoginImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/implementation/LoginImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/implementation/LoginImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/implementation/LoginImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/openBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/openBrowser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tests/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tests/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tests/LoginTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +40,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>testmethod</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-    <dirStrings>
-      <dir>C:\Users\Lorik Halili\Desktop\automation-test\src\test\java\test-automation</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -79,6 +64,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/uploadfile" />
+    </key>
   </component>
   <component name="RunManager" selected="TestNG.LoginTest.testMethod (1)">
     <configuration name="LoginTest.testMethod (1)" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -205,38 +195,81 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="305" key="GridCell.Tab.0.bottom" timestamp="1596638163986">
+    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596665665214">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596665665214" />
+    <state width="1878" height="271" key="GridCell.Tab.0.bottom" timestamp="1596801475998">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1493" height="174" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1596583410577" />
-    <state width="1878" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596638163986" />
-    <state width="1878" height="305" key="GridCell.Tab.0.bottom/76.23.1844.1057@76.23.1844.1057" timestamp="1596626766903" />
-    <state width="1878" height="305" key="GridCell.Tab.0.bottom/79.23.1841.1057@79.23.1841.1057" timestamp="1596638114358" />
-    <state width="1878" height="305" key="GridCell.Tab.0.center" timestamp="1596638163985">
+    <state width="1878" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596801475998" />
+    <state width="1878" height="303" key="GridCell.Tab.0.bottom/76.23.1844.1057@76.23.1844.1057" timestamp="1596672392060" />
+    <state width="1878" height="271" key="GridCell.Tab.0.bottom/79.23.1841.1057@79.23.1841.1057" timestamp="1596796298431" />
+    <state width="1878" height="271" key="GridCell.Tab.0.center" timestamp="1596801475997">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1493" height="174" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1596583410577" />
-    <state width="1878" height="305" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596638163985" />
-    <state width="1878" height="305" key="GridCell.Tab.0.center/76.23.1844.1057@76.23.1844.1057" timestamp="1596626766902" />
-    <state width="1878" height="305" key="GridCell.Tab.0.center/79.23.1841.1057@79.23.1841.1057" timestamp="1596638114357" />
-    <state width="1878" height="305" key="GridCell.Tab.0.left" timestamp="1596638163982">
+    <state width="1878" height="271" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596801475997" />
+    <state width="1878" height="303" key="GridCell.Tab.0.center/76.23.1844.1057@76.23.1844.1057" timestamp="1596672392059" />
+    <state width="1878" height="271" key="GridCell.Tab.0.center/79.23.1841.1057@79.23.1841.1057" timestamp="1596796298430" />
+    <state width="1878" height="271" key="GridCell.Tab.0.left" timestamp="1596801475996">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1493" height="174" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1596583410577" />
-    <state width="1878" height="305" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596638163982" />
-    <state width="1878" height="305" key="GridCell.Tab.0.left/76.23.1844.1057@76.23.1844.1057" timestamp="1596626766901" />
-    <state width="1878" height="305" key="GridCell.Tab.0.left/79.23.1841.1057@79.23.1841.1057" timestamp="1596638114357" />
-    <state width="1878" height="305" key="GridCell.Tab.0.right" timestamp="1596638163986">
+    <state width="1878" height="271" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596801475996" />
+    <state width="1878" height="303" key="GridCell.Tab.0.left/76.23.1844.1057@76.23.1844.1057" timestamp="1596672392058" />
+    <state width="1878" height="271" key="GridCell.Tab.0.left/79.23.1841.1057@79.23.1841.1057" timestamp="1596796298429" />
+    <state width="1878" height="271" key="GridCell.Tab.0.right" timestamp="1596801475998">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1493" height="174" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1596583410577" />
-    <state width="1878" height="305" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596638163986" />
-    <state width="1878" height="305" key="GridCell.Tab.0.right/76.23.1844.1057@76.23.1844.1057" timestamp="1596626766903" />
-    <state width="1878" height="305" key="GridCell.Tab.0.right/79.23.1841.1057@79.23.1841.1057" timestamp="1596638114358" />
-    <state x="277" y="62" key="SettingsEditor" timestamp="1596580938874">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1878" height="271" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596801475998" />
+    <state width="1878" height="303" key="GridCell.Tab.0.right/76.23.1844.1057@76.23.1844.1057" timestamp="1596672392059" />
+    <state width="1878" height="271" key="GridCell.Tab.0.right/79.23.1841.1057@79.23.1841.1057" timestamp="1596796298431" />
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1596672396714">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596672396714" />
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom/76.23.1844.1057@76.23.1844.1057" timestamp="1596672392046" />
+    <state width="1878" height="376" key="GridCell.Tab.1.center" timestamp="1596672396714">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596672396714" />
+    <state width="1878" height="376" key="GridCell.Tab.1.center/76.23.1844.1057@76.23.1844.1057" timestamp="1596672392045" />
+    <state width="1878" height="376" key="GridCell.Tab.1.left" timestamp="1596672396713">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596672396713" />
+    <state width="1878" height="376" key="GridCell.Tab.1.left/76.23.1844.1057@76.23.1844.1057" timestamp="1596672392044" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right" timestamp="1596672396714">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596672396714" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right/76.23.1844.1057@76.23.1844.1057" timestamp="1596672392045" />
+    <state x="346" y="80" key="SettingsEditor" timestamp="1596665964944">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1596580938874" />
+    <state x="346" y="80" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1596665964944" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1596674158039">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1596674158039" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/tests/LoginTest.java</url>
+          <line>48</line>
+          <properties class="com.tests.LoginTest" method="testMethod">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
